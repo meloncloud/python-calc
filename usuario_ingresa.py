@@ -1,4 +1,5 @@
 
+
 while True:
     try:
         a = int(input('ingrese un nro : ' ))
