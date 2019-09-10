@@ -8,15 +8,28 @@ class Persona:
     def show (self):
          print('your name is : ',self.name, ', and your age is :', self.age, 'years old' )
 
-persona1=Persona()
-persona1.cargar_datos("Pedro", "32", "1,70 mts", "27981816")
-persona1.show()
 
 class Persona2(Persona):
-	
-	 def actualizar(self,apelli):
-	 	self.apellido = apelli
-	 	print('your name is : ',self.name, ', your age is :', self.age, 'years old' , 'your surname is:' self.apellido )
+
+    def __init__(self,name, age,height):
+        self.name = name
+        self.age = age
+        self.height = height
+        
+
+    def show (self):
+         print('your name is : ',self.name, ', and your age is :', self.age, 'years old' )
 
 
-Persona2.actualizar()
+
+persona1=Persona("Pedro", "32")
+persona1.show()
+
+persona2=Persona2("Pedro", "32",23)
+persona2.show()
+
+
+
+	 	
+
+
