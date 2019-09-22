@@ -1,12 +1,14 @@
 class Sumadora:
 
-   def __init__(self, num1 , num2):
-   	    self.num1 = num1
-   	    self.num2 = num2
+    def __init__(self,val1, val2):
+        self.val1 = val1
+        self.val2 = val2
+        
 
-   def sum (self):
-   	      Suma = self.num1 + self.num2
-   	      return Suma
+    def add (self):
+         print(self.val1 + self.val2)
 
-a = Sumadora (2 , 4)
-print (a)
+
+
+persona1=Sumadora(10, 32)
+persona1.add()
