@@ -22,4 +22,3 @@ class Sumadora:
 suma = Sumadora(2,2)
 suma.sum()
 suma.AbsSum()
-
