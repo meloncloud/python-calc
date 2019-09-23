@@ -5,11 +5,15 @@ class Restadora:
    	    self.num2 = num2
 
    def rest (self):
-   	    if self > 0:
+
+   	  if self.num2 != 0:
    	      print( self.num1 - self.num2)
+      else:
+      print('es igual a cero')
+
    #def Absum(self):
    	#      print("")
 
 
-resta = Restadora(8,-4)
+resta = Restadora(8,2)
 resta .rest()
