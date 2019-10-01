@@ -1,7 +1,7 @@
-import  Clase_Restadora
+from  Clase_Restadora import Restadora
 
 
-Clase_Restadora.rest (6,1)
+restadora = Restadora()
 
-
+restadora.rest(10,5)
 
