@@ -1,14 +1,25 @@
 class Sumadora:
 
-    def __init__(self,val1, val2):
-        self.val1 = val1
-        self.val2 = val2
-        
-
-    def add (self):
-         print(self.val1 + self.val2)
+   def __init__(self, num1 , num2):
+   	    self.num1 = num1 
+   	    self.num2 = num2
 
 
+   def sum (self):
+   	    print(self.num1 + self.num2)
 
-persona1=Sumadora(10, 32)
-persona1.add()
+   def AbsSum (self):
+   	      
+   	      if self.num2 < 0:
+   	      	self.num2 = -self.num2
+   	      	print( self.num1 + self.num2)
+
+   	      print( self.num1 + self.num2)
+
+   
+
+
+suma = Sumadora(8,-1)
+suma.sum()
+suma.AbsSum()
+
