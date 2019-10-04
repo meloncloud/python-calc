@@ -9,5 +9,5 @@ class Restadora:
        else:
           print( ' ingrese un numero mayor que cero')
           
-resta = Restadora(8,9)
-resta .rest()
+#resta = Restadora(4,5)
+#resta .rest()

@@ -19,7 +19,7 @@ class Sumadora:
    
 
 
-suma = Sumadora(8,-1)
-suma.sum()
-suma.AbsSum()
+#suma = Sumadora(8,-1)
+#suma.sum()
+#suma.AbsSum()
 

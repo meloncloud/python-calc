@@ -1,7 +1,10 @@
 import  Clase_Restadora
 
+resta=Clase_Restadora.Restadora(9,8)
+resta.rest()
 
-Clase_Restadora.rest (6,1)
+import Clase_Sumadora
 
+#suma Clase_Sumadora.Sumadora
 
 
